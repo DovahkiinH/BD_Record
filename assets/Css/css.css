@@ -1,0 +1,23 @@
+
+        .disque-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .disque {
+            width: 48%;
+            margin-bottom: 20px;
+            display : flex;
+            align-items: center;
+        }
+
+        .disque img {
+            max-width: 25%;
+            height: auto;
+        }
+
+        .details {
+            flex-grow: 1;
+            padding: 0 20px;
+        }
